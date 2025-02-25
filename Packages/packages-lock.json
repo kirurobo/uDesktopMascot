@@ -25,13 +25,6 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "com.ayutaz.uniwinc": {
-      "version": "https://github.com/ayutaz/UniWindowController.git#upm",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "fb01d997caacda8fda86d306c236211cceb2cd5e"
-    },
     "com.cysharp.unitask": {
       "version": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
       "depth": 0,
@@ -77,6 +70,13 @@
         "com.frozenstorminteractive.assimp": "4.1.0"
       },
       "url": "https://upm.frozenstorminteractive.com"
+    },
+    "com.kirurobo.uniwinc": {
+      "version": "https://github.com/kirurobo/UniWindowController.git#upm",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "d84700d86492f3848b59cdc73c82381ca2fa42ae"
     },
     "com.unity.2d.animation": {
       "version": "10.1.4",

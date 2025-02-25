@@ -94,7 +94,8 @@ namespace uDesktopMascot
         /// <param name="isHitTest"></param>
         public void ForceStopUniWinControllerHitTestFlag(bool isHitTest)
         {
-            windowController.IsForceHitTestStop = isHitTest;
+            //windowController.IsForceHitTestStop = isHitTest;
+            windowController.hitTestType = isHitTest ? UniWindowController.HitTestType.Opacity : UniWindowController.HitTestType.None;
         }
 
         /// <summary>
