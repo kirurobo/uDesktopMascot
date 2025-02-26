@@ -153,6 +153,12 @@ sysinfo.txt
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
+# 自動生成された分を除外
+/[Aa]ssets/[Ss]treamingAssets/application_settings.txt*
+/[Aa]ssets/[Ss]treamingAssets/undreamai-*
+*.gguf
+*.gguf.meta
+
 # End of https://www.toptal.com/developers/gitignore/api/unity,rider
 
 uDesktopMascot*.zip
